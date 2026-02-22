@@ -1,0 +1,29 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgLocal" x1="40" y1="20" x2="580" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A7BFF"/>
+      <stop offset="1" stop-color="#1EC8D7"/>
+    </linearGradient>
+    <linearGradient id="tokenX" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9FBFF"/>
+      <stop offset="1" stop-color="#CFE0FF"/>
+    </linearGradient>
+    <linearGradient id="tokenO" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF5CF"/>
+      <stop offset="1" stop-color="#FFD45C"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="608" height="328" rx="36" fill="url(#bgLocal)"/>
+  <circle cx="92" cy="72" r="30" fill="#4CB7FF" fill-opacity="0.5"/>
+  <circle cx="552" cy="290" r="46" fill="#B1F2FF" fill-opacity="0.35"/>
+  <rect x="146" y="64" width="348" height="232" rx="28" fill="#0B2E69" fill-opacity="0.36"/>
+  <line x1="262" y1="84" x2="262" y2="276" stroke="#D5ECFF" stroke-width="10" stroke-linecap="round"/>
+  <line x1="378" y1="84" x2="378" y2="276" stroke="#D5ECFF" stroke-width="10" stroke-linecap="round"/>
+  <line x1="166" y1="141" x2="474" y2="141" stroke="#D5ECFF" stroke-width="10" stroke-linecap="round"/>
+  <line x1="166" y1="219" x2="474" y2="219" stroke="#D5ECFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M195 96L229 130M229 96L195 130" stroke="url(#tokenX)" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="318" cy="109" r="20" stroke="url(#tokenO)" stroke-width="12"/>
+  <path d="M419 233L451 265M451 233L419 265" stroke="url(#tokenX)" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="220" cy="250" r="20" stroke="url(#tokenO)" stroke-width="12"/>
+  <circle cx="320" cy="250" r="20" stroke="url(#tokenO)" stroke-width="12"/>
+</svg>

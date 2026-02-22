@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/tic-tac-toe/"
+  base:"/tic-tac-toe/",
   plugins: [
     tailwindcss(),
     react()
